@@ -1,5 +1,7 @@
 import { Link as ReactRouterLink } from "react-router-dom";
-import { Link as ChakraLink, Flex } from "@chakra-ui/react";
+import { Button, Link as ChakraLink, Flex } from "@chakra-ui/react";
+import { useContext } from "react";
+import { AuthContext } from "../context/AuthContextProvider";
 
 // home, login, about, contact
 
@@ -20,9 +22,15 @@ const links = [
     to: "/contact",
     label: "CONTACT",
   },
+  {
+    to: "/tasks",
+    label: "TASKS",
+  },
 ];
 
 export default function Navbar() {
+  const { logout } = useContext(AuthContext);
+
   return (
     <Flex
       align="center"
@@ -40,6 +48,9 @@ export default function Navbar() {
           {link.label}
         </ChakraLink>
       ))}
+      <Button variant="outline" colorScheme="red" onClick={logout}>
+        LOGOUT
+      </Button>
     </Flex>
   );
 }
