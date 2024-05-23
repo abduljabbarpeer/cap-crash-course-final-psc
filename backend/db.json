@@ -9,28 +9,12 @@
       "priority": 0
     },
     {
-      "id": 2,
-      "title": "Implement Dark Mode",
-      "description": "Add dark mode feature to the application",
-      "assignee": "Sakshi",
-      "status": "progress",
-      "priority": 3
-    },
-    {
-      "id": 3,
-      "title": "Fix Login Bug",
-      "description": "Resolve the issue causing login failures",
-      "assignee": "Varun",
+      "title": "Implement Light Mode",
+      "description": "Add light mode feature to the application",
+      "assignee": "sakshi",
       "status": "completed",
-      "priority": 2
-    },
-    {
-      "id": 4,
-      "title": "Optimize Database Queries",
-      "description": "Improve the performance of database queries",
-      "assignee": "Abdul",
-      "status": "pending",
-      "priority": 5
+      "priority": 6,
+      "id": 2
     },
     {
       "id": 5,
@@ -95,6 +79,14 @@
       "status": "pending",
       "priority": 7,
       "id": 12
+    },
+    {
+      "title": "Creatinf new ticket",
+      "description": "Sample for creating new ticket",
+      "assignee": "sakshi",
+      "status": "progress",
+      "priority": 0,
+      "id": 13
     }
   ]
 }
