@@ -79,6 +79,22 @@
       "assignee": "Saharan",
       "status": "pending",
       "priority": 9
+    },
+    {
+      "title": "Create Footer Logo",
+      "description": "Create company logo on footer",
+      "assignee": "varun",
+      "status": "pending",
+      "priority": 2,
+      "id": 11
+    },
+    {
+      "title": "Navbar Logo",
+      "description": "Create nab=vbar logo",
+      "assignee": "abdul",
+      "status": "pending",
+      "priority": 7,
+      "id": 12
     }
   ]
 }
