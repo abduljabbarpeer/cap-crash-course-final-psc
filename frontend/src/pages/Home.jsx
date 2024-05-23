@@ -5,8 +5,6 @@ export default function Home() {
   const navigate = useNavigate();
 
   function handleClick() {
-    console.log(`kuch aur bhi operations hai`);
-
     navigate(`/about`);
   }
 
